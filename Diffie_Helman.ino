@@ -23,6 +23,7 @@
  */
 
 //public variable representing the shared secret key.
+//note that a uint32_t size key is suceptable to brute force attacks, consider a different data type of at least 1024 bits
 uint32_t k; 
 //prime number 
 const uint32_t prime = 2147483647;
